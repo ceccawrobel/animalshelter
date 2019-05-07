@@ -1,0 +1,36 @@
+h3 {
+  font-style: italic;
+}
+
+.column h3 {
+  font-family: sans-serif;
+}
+
+.column {
+  width: 30%;
+  height: 200px;
+  border-style: solid;
+  border-color: red;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+
+/* .regular {
+  height: 300px;
+  border: 5px;
+  border-style: solid;
+  margin: 10px;
+} */
+
+img {
+  border-style: solid;
+  border-color: black;
+  float: left;
+}
+
+.column img {
+  width: 100px;
+  float: right;
+  border-color: blue;
+}
