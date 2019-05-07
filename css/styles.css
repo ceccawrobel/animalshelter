@@ -34,3 +34,17 @@ img {
   float: right;
   border-color: blue;
 }
+
+@media screen and (min-width: 300px) and (max-width: 550px) {
+  body {
+    background: salmon;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body {
+    background: aqua;
+  }
+
+}
